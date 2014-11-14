@@ -1,0 +1,809 @@
+
+
+.thing.linkflair-project.linkflair-home:before{ background-position:-101px -327px; background-color:#d4d4d4;} 
+.thing.linkflair-project.linkflair-fighter:before{ background-position: -99px -483px; background-color:#9d4110;} 
+.thing.linkflair-project.linkflair-fps:before{ background-position: -99px -223px; background-color:#970b18;} 
+.thing.linkflair-project.linkflair-indie:before{ background-position: -99px -431px; background-color:#5f0052;} 
+.thing.linkflair-project.linkflair-milsim:before{ background-position: -99px -379px; background-color:#766555;} 
+.thing.linkflair-project.linkflair-sandbox:before{ background-position: -99px -275px; background-color:#00a49d;} 
+.thing.linkflair-project.linkflair-simulation:before{ background-position: -99px -171px; background-color:#006d68;} 
+.thing.linkflair-project.linkflair-sports:before{ background-position: -99px -535px; background-color:#395f0a;} 
+.thing.linkflair-project.linkflair-strategy:before{ background-position: -99px -545px; background-color:#595959;} 
+.thing.linkflair-project.linkflair-mmo:before{ background-position: -101px -327px; background-color:#ea6b48;} 
+
+
+
+.thing.linkflair-sandbox:hover::before {
+-webkit-animation: sandbox 1s 1; /* Safari 4+ */
+-moz-animation:    sandbox 1s 1; /* Fx 5+ */
+-o-animation:      sandbox 1s 1; /* Opera 12+ */
+animation:         sandbox 1s 1; /* IE 10+, Fx 29+ */
+background:
+    url(%%spritesheet%%) -10px -275px,
+    url(%%colours%%) -56px -695px;
+background-color:transparent;
+}
+
+@-webkit-keyframes sandbox {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -275px,
+    url(%%colours%%) -107px -747px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -275px,
+    url(%%colours%%) -56px -695px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -275px,
+    url(%%colours%%) -56px -695px;
+        }
+}
+
+@-moz-keyframes sandbox {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -275px,
+    url(%%colours%%) -107px -747px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -275px,
+    url(%%colours%%) -56px -695px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -275px,
+    url(%%colours%%) -56px -695px;
+        }
+}
+@-o-keyframes sandbox {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -275px,
+    url(%%colours%%) -107px -747px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -275px,
+    url(%%colours%%) -56px -695px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -275px,
+    url(%%colours%%) -56px -695px;
+        }
+}
+@keyframes sandbox {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -275px,
+    url(%%colours%%) -107px -747px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -275px,
+    url(%%colours%%) -56px -695px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -275px,
+    url(%%colours%%) -56px -695px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*****************/
+
+.thing.linkflair-fighter:hover::before {
+-webkit-animation: fighter 1s 1; /* Safari 4+ */
+-moz-animation:    fighter 1s 1; /* Fx 5+ */
+-o-animation:      fighter 1s 1; /* Opera 12+ */
+animation:         fighter 1s 1; /* IE 10+, Fx 29+ */
+background:
+    url(%%spritesheet%%) -10px -483px,
+    url(%%colours%%) -165px -586px;
+background-color:transparent;
+}
+
+@-webkit-keyframes fighter {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -483px,
+    url(%%colours%%) -217px -638px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -483px,
+    url(%%colours%%) -165px -586px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -483px,
+    url(%%colours%%) -165px -586px;
+        }
+}
+
+@-moz-keyframes fighter {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -483px,
+    url(%%colours%%) -217px -638px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -483px,
+    url(%%colours%%) -165px -586px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -483px,
+    url(%%colours%%) -165px -586px;
+        }
+}
+@-o-keyframes fighter {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -483px,
+    url(%%colours%%) -217px -638px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -483px,
+    url(%%colours%%) -165px -586px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -483px,
+    url(%%colours%%) -165px -586px;
+        }
+}
+@keyframes fighter {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -483px,
+    url(%%colours%%) -217px -638px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -483px,
+    url(%%colours%%) -165px -586px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -483px,
+    url(%%colours%%) -165px -586px;
+        }
+}
+
+
+/****************/
+
+.thing.linkflair-fps:hover::before {
+-webkit-animation: fps 1s 1; /* Safari 4+ */
+-moz-animation:    fps 1s 1; /* Fx 5+ */
+-o-animation:      fps 1s 1; /* Opera 12+ */
+animation:         fps 1s 1; /* IE 10+, Fx 29+ */
+background:
+    url(%%spritesheet%%) -10px -223px,
+    url(%%colours%%) -895px -503px;
+background-color:transparent;
+}
+
+@-webkit-keyframes fps {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -223px,
+    url(%%colours%%) -947px -555px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -223px,
+    url(%%colours%%) -895px -503px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -223px,
+    url(%%colours%%) -895px -503px;
+        }
+}
+
+@-moz-keyframes fps {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -223px,
+    url(%%colours%%) -947px -555px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -223px,
+    url(%%colours%%) -895px -503px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -223px,
+    url(%%colours%%) -895px -503px;
+        }
+}
+
+
+@-o-keyframes fps {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -223px,
+    url(%%colours%%) -947px -555px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -223px,
+    url(%%colours%%) -895px -503px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -223px,
+    url(%%colours%%) -895px -503px;
+        }
+}
+
+
+@keyframes fps {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -223px,
+    url(%%colours%%) -947px -555px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -223px,
+    url(%%colours%%) -895px -503px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -223px,
+    url(%%colours%%) -895px -503px;
+        }
+}
+
+
+/****************/
+
+
+.thing.linkflair-indie:hover::before {
+-webkit-animation: indie 1s 1; /* Safari 4+ */
+-moz-animation:    indie 1s 1; /* Fx 5+ */
+-o-animation:      indie 1s 1; /* Opera 12+ */
+animation:         indie 1s 1; /* IE 10+, Fx 29+ */
+background:
+    url(%%spritesheet%%) -2px -431px,
+    url(%%colours%%) -209px -875px;
+background-color:transparent;
+}
+
+@-webkit-keyframes indie {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -431px,
+    url(%%colours%%) -261px -927px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -431px,
+    url(%%colours%%) -209px -875px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -2px -431px,
+    url(%%colours%%) -209px -875px;
+        }
+}
+
+@-moz-keyframes indie {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -431px,
+    url(%%colours%%) -261px -927px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -431px,
+    url(%%colours%%) -209px -875px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -2px -431px,
+    url(%%colours%%) -209px -875px;
+        }
+}
+
+
+@-o-keyframes indie {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -431px,
+    url(%%colours%%) -261px -927px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -431px,
+    url(%%colours%%) -209px -875px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -2px -431px,
+    url(%%colours%%) -209px -875px;
+        }
+}
+
+
+@keyframes indie {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -431px,
+    url(%%colours%%) -261px -927px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -431px,
+    url(%%colours%%) -209px -875px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -2px -431px,
+    url(%%colours%%) -209px -875px;
+        }
+}
+
+
+/*****************/
+
+.thing.linkflair-milsim:hover::before {
+-webkit-animation: milsim 1s 1; /* Safari 4+ */
+-moz-animation:    milsim 1s 1; /* Fx 5+ */
+-o-animation:      milsim 1s 1; /* Opera 12+ */
+animation:         milsim 1s 1; /* IE 10+, Fx 29+ */
+background:
+    url(%%spritesheet%%) -7px -379px,
+    url(%%colours%%) -398px -682px;
+background-color:transparent;
+}
+
+@-webkit-keyframes milsim {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -379px,
+    url(%%colours%%) -450px -734px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -379px,
+    url(%%colours%%) -398px -682px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -7px -379px,
+    url(%%colours%%) -398px -682px;
+        }
+}
+
+@-moz-keyframes milsim {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -379px,
+    url(%%colours%%) -450px -734px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -379px,
+    url(%%colours%%) -398px -682px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -7px -379px,
+    url(%%colours%%) -398px -682px;
+        }
+}
+
+@-o-keyframes milsim {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -379px,
+    url(%%colours%%) -450px -734px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -379px,
+    url(%%colours%%) -398px -682px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -7px -379px,
+    url(%%colours%%) -398px -682px;
+        }
+}
+
+@keyframes milsim {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -379px,
+    url(%%colours%%) -450px -734px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -379px,
+    url(%%colours%%) -398px -682px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -7px -379px,
+    url(%%colours%%) -398px -682px;
+        }
+}
+
+/*****************/
+.thing.linkflair-simulation:hover::before {
+-webkit-animation: simulation 1s 1; /* Safari 4+ */
+-moz-animation:    simulation 1s 1; /* Fx 5+ */
+-o-animation:      simulation 1s 1; /* Opera 12+ */
+animation:         simulation 1s 1; /* IE 10+, Fx 29+ */
+background:
+    url(%%spritesheet%%) -10px -171px,
+    url(%%colours%%) -751px -682px;
+background-color:transparent;
+}
+
+@-webkit-keyframes simulation {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -171px,
+    url(%%colours%%) -803px -698px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -171px,
+    url(%%colours%%) -751px -682px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -171px,
+    url(%%colours%%) -751px -682px;
+        }
+}
+
+@-moz-keyframes simulation {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -171px,
+    url(%%colours%%) -803px -698px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -171px,
+    url(%%colours%%) -751px -682px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -171px,
+    url(%%colours%%) -751px -682px;
+        }
+}
+
+@-o-keyframes simulation {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -171px,
+    url(%%colours%%) -803px -698px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -171px,
+    url(%%colours%%) -751px -682px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -171px,
+    url(%%colours%%) -751px -682px;
+        }
+}
+
+
+@keyframes simulation {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -171px,
+    url(%%colours%%) -803px -698px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -171px,
+    url(%%colours%%) -751px -682px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -10px -171px,
+    url(%%colours%%) -751px -682px;
+        }
+}
+
+/**************/
+
+.thing.linkflair-sports:hover::before {
+-webkit-animation: sports 1s 1; /* Safari 4+ */
+-moz-animation:    sports 1s 1; /* Fx 5+ */
+-o-animation:      sports 1s 1; /* Opera 12+ */
+animation:         sports 1s 1; /* IE 10+, Fx 29+ */
+background:
+    url(%%spritesheet%%) -6px -535px,
+    url(%%colours%%) -827px -883px;
+background-color:transparent;
+}
+
+@-webkit-keyframes sports {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -535px,
+    url(%%colours%%) -879px -935px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -535px,
+    url(%%colours%%) -827px -883px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -6px -535px,
+    url(%%colours%%) -827px -883px;
+        }
+}
+
+@-moz-keyframes sports {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -535px,
+    url(%%colours%%) -879px -935px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -535px,
+    url(%%colours%%) -827px -883px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -6px -535px,
+    url(%%colours%%) -827px -883px;
+        }
+}
+
+
+@-o-keyframes sports {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -535px,
+    url(%%colours%%) -879px -935px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -535px,
+    url(%%colours%%) -827px -883px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -6px -535px,
+    url(%%colours%%) -827px -883px;
+        }
+}
+
+
+
+@keyframes sports {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -99px -535px,
+    url(%%colours%%) -879px -935px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -99px -535px,
+    url(%%colours%%) -827px -883px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -6px -535px,
+    url(%%colours%%) -827px -883px;
+        }
+}
+
+/**************/
+
+.thing.linkflair-mmo:hover::before {
+-webkit-animation: mmo 1s 1; /* Safari 4+ */
+-moz-animation:    mmo 1s 1; /* Fx 5+ */
+-o-animation:      mmo 1s 1; /* Opera 12+ */
+animation:         mmo 1s 1; /* IE 10+, Fx 29+ */
+background:
+    url(%%spritesheet%%) -2px -327px,
+    url(%%colours%%) -382px -371px;
+background-color:transparent;
+}
+
+@-webkit-keyframes mmo {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -101px -327px,
+    url(%%colours%%) -434px -423px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -101px -327px,
+    url(%%colours%%) -382px -371px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -2px -327px,
+    url(%%colours%%) -382px -371px;
+        }
+}
+
+@-moz-keyframes mmo {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -101px -327px,
+    url(%%colours%%) -434px -423px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -101px -327px,
+    url(%%colours%%) -382px -371px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -2px -327px,
+    url(%%colours%%) -382px -371px;
+        }
+}
+
+
+@-o-keyframes mmo {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -101px -327px,
+    url(%%colours%%) -434px -423px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -101px -327px,
+    url(%%colours%%) -382px -371px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -2px -327px,
+    url(%%colours%%) -382px -371px;
+        }
+}
+
+
+@keyframes mmo {
+
+  0%   { 
+background:
+    url(%%spritesheet%%) -101px -327px,
+    url(%%colours%%) -434px -423px;
+        }
+
+  50% { 
+background:
+    url(%%spritesheet%%) -101px -327px,
+    url(%%colours%%) -382px -371px;
+        }
+
+  100% {
+background:
+    url(%%spritesheet%%) -2px -327px,
+    url(%%colours%%) -382px -371px;
+        }
+}
+
+/************/
