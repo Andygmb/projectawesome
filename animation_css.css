@@ -1,4 +1,141 @@
 
+a[href="http://www.reddit.com/user/andygmb"]:hover:before {
+content:"";
+display:block;
+position:fixed;
+bottom:-800px;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+background-image:url(%%eagle%%);
+width:699px;
+height:426px;
+z-index:9999;
+  -webkit-animation: before 30s linear; /* Safari 4+ */
+  -moz-animation:    before 30s linear; /* Fx 5+ */
+  -o-animation:      before 30s linear; /* Opera 12+ */
+  animation:         before 30s linear; /* IE 10+, Fx 29+ */
+}
+
+a[href="http://www.reddit.com/user/andygmb"]:hover {
+
+}
+
+
+a[href="http://www.reddit.com/user/andygmb"]:hover:after {
+content:"";
+display:block;
+position:fixed;
+bottom:-800px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+background-image:url(%%triforce%%);
+width:699px;
+height:426px;
+z-index:9999;
+float:right;
+  -webkit-animation: after 30s linear; /* Safari 4+ */
+  -moz-animation:    after 30s linear; /* Fx 5+ */
+  -o-animation:      after 30s linear;  /* Opera 12+ */
+  animation:         after 30s linear; /* IE 10+, Fx 29+ */
+}
+
+
+
+@-webkit-keyframes before {
+  0%   { bottom:-800px; }
+  30% { bottom:0px;}
+  89.99% { bottom:0px;}
+  90% {bottom:-10px;}
+  100% {bottom:-800px;}
+}
+@-moz-keyframes before {
+  0%   { bottom:-800px; }
+  30% { bottom:0px;}
+  89.99% { bottom:0px;}
+  90% {bottom:-10px;}
+  100% {bottom:-800px;}
+}
+@-o-keyframes before {
+  0%   { bottom:-800px; }
+  30% { bottom:0px;}
+  89.99% { bottom:0px;}
+  90% {bottom:-10px;}
+  100% {bottom:-800px;}
+}
+@keyframes before {
+  0%   { bottom:-800px; }
+  30% { bottom:0px;}
+  89.99% { bottom:0px;}
+  90% {bottom:-10px;}
+  100% {bottom:-800px;}
+}
+
+@-webkit-keyframes after {
+  0%   { -webkit-transform: translateX(0px) rotateY(0deg) rotatez(0deg) rotateX(0deg);bottom:-800px; }
+  50% { bottom:0px; -webkit-transform: translateX(0px) rotateY(3150deg) rotatez(0deg) rotateX(0deg);}
+
+  55% {bottom:20px;}
+  60% {bottom:-10px;}
+  65% {bottom:20px;}
+  70% {bottom:-10px;}
+
+  75% {bottom:20px;}
+  80% {bottom:-10px;}
+  85% {bottom:20px;}
+  90% {bottom:-10px;}
+  100% {-webkit-transform: translateX(0px) rotateY(1800deg) rotatez(0deg) rotateX(0deg);bottom:-800px;}
+}
+@-moz-keyframes after {
+  0%   { -moz-transform: translateX(0px) rotateY(0deg) rotatez(0deg) rotateX(0deg);bottom:-800px; }
+  50% { bottom:0px; -moz-transform: translateX(0px) rotateY(3150deg) rotatez(0deg) rotateX(0deg);}
+
+  55% {bottom:20px;}
+  60% {bottom:-10px;}
+  65% {bottom:20px;}
+  70% {bottom:-10px;}
+
+  75% {bottom:20px;}
+  80% {bottom:-10px;}
+  85% {bottom:20px;}
+  90% {bottom:-10px;}
+  100% {-moz-transform: translateX(0px) rotateY(1800deg) rotatez(0deg) rotateX(0deg);bottom:-800px;}
+}
+@-o-keyframes after {
+  0%   { -o-transform: translateX(0px) rotateY(0deg) rotatez(0deg) rotateX(0deg);bottom:-800px; }
+  50% { bottom:0px; -o-transform: translateX(0px) rotateY(3150deg) rotatez(0deg) rotateX(0deg);}
+
+  55% {bottom:20px;}
+  60% {bottom:-10px;}
+  65% {bottom:20px;}
+  70% {bottom:-10px;}
+
+  75% {bottom:20px;}
+  80% {bottom:-10px;}
+  85% {bottom:20px;}
+  90% {bottom:-10px;}
+  100% {-o-transform: translateX(0px) rotateY(1800deg) rotatez(0deg) rotateX(0deg);bottom:-800px;}
+}
+@keyframes after {
+  0%   { transform: translateX(0px) rotateY(0deg) rotatez(0deg) rotateX(0deg);bottom:-800px; }
+  50% { bottom:0px; transform: translateX(0px) rotateY(3150deg) rotatez(0deg) rotateX(0deg);}
+
+  55% {bottom:20px;}
+  60% {bottom:-10px;}
+  65% {bottom:20px;}
+  70% {bottom:-10px;}
+
+  75% {bottom:20px;}
+  80% {bottom:-10px;}
+  85% {bottom:20px;}
+  90% {bottom:-10px;}
+  100% {transform: translateX(0px) rotateY(1800deg) rotatez(0deg) rotateX(0deg);bottom:-800px;}
+}
+
+
+
 
 .thing.linkflair-project.linkflair-home:before{ background-position:-101px -327px; background-color:#d4d4d4;} 
 .thing.linkflair-project.linkflair-fighter:before{ background-position: -99px -483px; background-color:#9d4110;} 
